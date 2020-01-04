@@ -1,0 +1,1 @@
+static-locations: classpath:/templates  #访问静态页面
