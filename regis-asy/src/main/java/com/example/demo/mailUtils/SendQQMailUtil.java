@@ -39,7 +39,7 @@ public class SendQQMailUtil {
             Transport transport = session.getTransport();
             // 连接自己的邮箱账户
             // 密码为QQ邮箱开通的stmp服务后得到的客户端授权码
-            transport.connect("79996793@qq.com", "qtegnjngevvebgdj");
+            transport.connect("7", "qtgnjngevvebgdj");
             // 发送邮件
             transport.sendMessage(message, message.getAllRecipients());
             transport.close();
@@ -73,7 +73,7 @@ public class SendQQMailUtil {
             Transport transport = session.getTransport();
             // 连接自己的邮箱账户
             // 密码为QQ邮箱开通的stmp服务后得到的客户端授权码
-            transport.connect("", "qtegnjngevvgdj");
+            transport.connect("", "qtegnjvgdj");
             // 发送邮件
             transport.sendMessage(message, message.getAllRecipients());
             transport.close();
@@ -87,9 +87,9 @@ public class SendQQMailUtil {
         // 连接协议
         config.put("mail.transport.protocol", "smtp");
         // 主机名
-        config.put("mail.smtp.host", "smtp.qq.com");
+        config.put("mail.smtp.host", "smtp.q.com");
         // 端口号
-        config.put("mail.smtp.port", 465);
+        config.put("mail.smtp.port", 46);
         config.put("mail.smtp.auth", "true");
         // 设置是否使用ssl安全连接 ---一般都使用
         config.put("mail.smtp.ssl.enable", "true");
